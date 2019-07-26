@@ -169,6 +169,7 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Parmak izi kimlik doğrulama titreşimi</string>
     <string name="fprint_sucess_vib_summary">Parmak izi doğrulaması başarılı olduğunda titret</string>
+	
     <string name="face_auto_unlock_title">Yüz kilidi</string>
     <string name="face_auto_unlock_summary">Yüz tanındıktan sonra kilit ekranını otomatik olarak kapatır</string>
 	
@@ -573,7 +574,7 @@
     <string name="screen_state_off_delay_title">Ekran kapandığında eylemlerin gecikmesi</string>
     <string name="screen_state_off_delay_summary">Ekranı kapattıktan sonra işlem yapmadan önce beklenecek saniye sayısı</string>
     <string name="screen_state_on_delay_title">Ekran açıldığında eylemlerin gecikmesi</string>
-    <string name="screen_state_on_delay_summary">Ekranıaçtıktan sonra işlem yapmadan önce beklenecek saniye sayısı</string>
+    <string name="screen_state_on_delay_summary">Ekranı açtıktan sonra işlem yapmadan önce beklenecek saniye sayısı</string>
     <string name="sysui_qqs_count_title">Sütunlar (Quickbar)</string>
 	
     <!-- CPU info -->
@@ -1629,17 +1630,91 @@
     <string name="lockscreen_lavalamp_title">Lav lambası</string>
     <string name="lockscreen_lavalamp_summary">Pürüzsüz bir lav lambası tarzı renk karışımı animasyonu kullanın</string>
     <string name="lockscreen_lavalamp_speed_title">Renk karışımı aralığı</string>
-    <string name="lockscreen_solid_lines_category">Düz çizgiler</string>
-    <string name="lockscreen_solid_units_count_title">Satır sayısı</string>
-    <string name="lockscreen_solid_fudge_factor_title">Davranış seviyesi</string>
-    <string name="lockscreen_solid_units_opacity_title">Satır opaklığı</string>
+	<string name="lockscreen_solid_lines_category">Düz çizgiler</string>
+	<string name="lockscreen_solid_units_count_title">Satır sayısı</string>
+	<string name="lockscreen_solid_fudge_factor_title">Davranış seviyesi</string>
+	<string name="lockscreen_solid_units_opacity_title">Satır opaklığı</string>
 	
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Cep algılama</string>
-    <string name="pocket_judge_summary">Cihaz cebindeyken ekran ve tuş girişlerini engeller</string>
+	<!-- Pocket judge -->
+	<string name="pocket_judge_title">Cep algılama</string>
+	<string name="pocket_judge_summary">Cihaz cebindeyken ekran ve tuş girişlerini engeller</string>
+	<string name="pocket_judge_fp_title">Cep modunda parmak izine izin ver</string>
+    <string name="pocket_judge_fp_summary">Cep algılama etkinken parmak izine izin verir</string>
 	
-	
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
-    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+	<!-- Notch: Full screen apps -->
+	<string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+	<string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+
+    <string name="lock_screen_weather_title">Hava durumunu göster</string>
+    <string name="lock_screen_weather_summary">Mevcut hava durumu bilgisini kilit ekranında göster</string>
+
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Şarj animasyonu</string>
+    <string name="lockscreen_charging_animation_summary">Cihaz şarj olurken bir yıldırım animasyonu görüntüle</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Şarj animasyonu</string>
+    <string name="charging_animation_summary">Cihaz şarja takıldığında bir animasyon göster</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Oyun modu</string>
+    <string name="gaming_mode_summary">Oyun modu tercihlerini özelleştirme</string>
+    <string name="gaming_mode_app_picker_title">Bu uygulamalar için otomatik olarak aç</string>
+    <string name="add_gaming_mode_package_title">Oyun modu için uygulamalar ekle</string>
+    <string name="add_gaming_mode_package_summary">Bu uygulamalar açıldığında oyun modu otomatik olarak açılacak ve kapatıldığında kapanacak</string>
+    <string name="gaming_mode_headsup_title">Bildirimleri engelle</string>
+    <string name="gaming_mode_headsup_summary">Çağrılar hariç tüm bildirim penceresi mesajlarını engelle</string>
+    <string name="gaming_mode_hardware_keys_title">Tuşları kilitle</string>
+    <string name="gaming_mode_hardware_keys_summary">Oyun modu açıkken donanım düğmelerini devre dışı bırakır</string>
+    <string name="gaming_mode_gestures_title">Hareketleri devre dışı bırak</string>
+    <string name="gaming_mode_gestures_summary">Oyun modu açıldığında hareket ile gezinti işlevini devre dışı bırakır</string>
+    <string name="gaming_mode_brightness_title">Otomatik parlaklığı devre dışı bırak</string>
+    <string name="gaming_mode_brightness_summary">Oyun modu açıldığında ekran parlaklığını kilitle</string>
+    <string name="gaming_mode_ringer_title">Oyun modunda zil sesi</string>
+    <string name="gaming_mode_ringer_off_title">Değiştirme</string>
+    <string name="gaming_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="gaming_mode_ringer_dnd_title">Rahatsız etmeyin</string>
+    <string name="gaming_mode_ringer_silent_title">Sessiz</string>
+    <string name="gaming_mode_notifications_title">Oyun modu göstergesi</string>
+    <string name="gaming_mode_notifications_off_title">Devre dışı</string>
+    <string name="gaming_mode_notifications_notif_title">Bildirimleri göster</string>
+    <string name="gaming_mode_notifications_toast_title">Alt bildirimleri göster</string>
+    <string name="gaming_mode_notifications_all_title">Bildirimleri ve alt bildirimleri göster</string>
+    <string name="gaming_mode_dynamic_title">Dinamik mod</string>
+    <string name="gaming_mode_dynamic_summary">Oyun uygulamalarını otomatik olarak algılamayı ve eklemeyi dene</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Her yerde hareket</string>
+    <string name="gesture_anywhere_summary">Tercih ettiğiniz etkinliği başlatmak için özel hareketler</string>
+    <string name="gesture_anywhere_position_title">Konum</string>
+    <string name="gesture_anywhere_position_summary">%1$s</string>
+    <string name="gesture_anywhere_position_left">Sol kenar</string>
+    <string name="gesture_anywhere_position_right">Sağ kenar</string>
+    <string name="gesture_anywhere_gestures_title">Hareketler</string>
+    <string name="gesture_anywhere_gestures_summary">Hareket ekleme, kaldırma ve düzenleme</string>
+    <string name="ga_button_add">Hareket ekle</string>
+    <string name="ga_button_reload">Tekrar yükle</string>
+    <string name="ga_button_discard">Yoksay</string>
+    <string name="ga_button_done">Tamam</string>
+    <string name="ga_prompt_gesture_name">Ad</string>
+    <string name="ga_error_missing_name">Bir ad girmelisin</string>
+    <string name="ga_save_success">%s olarak kaydedilen hareket</string>
+    <string name="ga_rename_action">Tamam</string>
+    <string name="ga_cancel_action">İptal</string>
+    <string name="ga_gestures_loading">Hareketler yükleniyor...</string>
+    <string name="ga_gestures_empty">Hareket yok</string>
+    <string name="ga_gestures_activity">Hareketler</string>
+    <string name="ga_gestures_edit">Düzenle</string>
+    <string name="ga_gestures_delete">Sil</string>
+    <string name="ga_gestures_delete_success">Hareket silindi</string>
+    <string name="ga_gestures_rename_title">Hareketi yeniden adlandır</string>
+    <string name="ga_gestures_rename_label">Hareket adı</string>
+    <string name="ga_gestures_error_loading">%s yüklenemedi. Kullanılabilir depolama alanı olduğundan emin olun.</string>
+    <string name="trigger_category">Tetikleyici bölge</string>
+    <string name="trigger_width_title">Tetikleme genişliği</string>
+    <string name="trigger_width_summary">Tetikleyici alanın genişliğini ayarlayın</string>
+    <string name="trigger_top_title">Tetikleme pozisyonu</string>
+    <string name="trigger_top_summary">Tetikleyici alanının dikey konumunu ayarlayın</string>
+    <string name="trigger_bottom_title">Tetikleme yüksekliği</string>
+    <string name="trigger_bottom_summary">Tetikleyici alanın yüksekliğini ayarlayın</string>
 </resources>
